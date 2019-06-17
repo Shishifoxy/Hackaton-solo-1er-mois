@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "Signatra";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/Signatra.ttf");
+    src: url("/fonts/Signatra.otf");
+}
+@font-face {
+    font-family: "champagne&limousines";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/Champagne & Limousines.ttf");
+}
+@font-face {
+    font-family: "champagne&limousines Bold";
+    font-style: normal;
+    font-weight: bold;
+    src: url("/fonts/Champagne & Limousines Bold.ttf");
+}
+@font-face {
+    font-family: "Sharp";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/SharpeBl_PERSONAL.ttf");
+}
+@font-face {
+    font-family: "Adega";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/ADega Serif Regular.otf");
+}
+
+.nav-link:hover {
+    color: gray;
+}
+.nav-link {
+    font-family:"Adega" ;
+    font-size: 1.7em ;
+}
+.colorme {
+    color: #68b1d1;
+}
+.fas, .far {
+    color: #F6931E;
+}
+
+.navbar-brand{
+    font-family: "Signatra";
+    font-size: 3em;
+}
+h1 {
+    font-family: "Signatra";
+
+}
+.navbar-brand:hover {
+    color: #68b1d1;
+
+}
+.imgfox {
+    max-height: 50px;
+}
+.jumbotron {
+    background-image: url("/img/jum.jpg");
+    min-height: 700px;
+}
+.txtjum {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 140px;
+}
+.txtjum2 {
+    font-family: "Adega";
+}
+.space
+{
+    color: #F6931E;
+    font-size: 1.7em ;
+
+}
+h4 {
+    font-style: italic;
+}
+.colorme, .transi {
+    cursor: pointer;
+}
+.colorme:hover {
+    transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -webkit-transform: rotateX(360deg);
+    transform-origin: center;
+    -moz-transform-origin: center;
+    -webkit-transform-origin: center;
+    transition: transform 1.0s ease ;
+    -moz-transition: -moz-transform 1.0s ease ;
+    -webkit-transition: -webkit-transform 1.0s ease ;
+}
+.transi:hover {
+    transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    transform-origin: center;
+    -moz-transform-origin: center;
+    -webkit-transform-origin: center;
+    transition: transform 1.0s ease ;
+    -moz-transition: -moz-transform 1.0s ease ;
+    -webkit-transition: -webkit-transform 1.0s ease ;
+}
+
+.navbutton {
+    text-align: center;
+}
+.fa-cloud {
+    font-size: 25px;
+}
+.form-group
+{
+    font-family: "champagne&limousines";
+    font-weight: bold;
+
+
+}
+.formcontact
+{
+    background-color: #91c6c6;
+    border-radius: 20px;
+}
+.formcontact2
+{
+border: #F6931E 1px solid;
+    border-radius: 20px;
+}
+strong {
+    font-size: x-large;
+}
+option
+{
+    background: #F6931E !important;
+
+}
+
